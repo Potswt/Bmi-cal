@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+*{
+    font-family: 'Prompt', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+.calculator {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin: auto;
+
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: auto;
+
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#result {
+    font-weight: bold;
+}
